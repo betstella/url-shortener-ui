@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <ShortenUrlForm />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ShortenUrlForm from './components/ShortenUrlForm.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    ShortenUrlForm
   }
-}
+};
 </script>
 
 <style>
